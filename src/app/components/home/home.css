@@ -1,0 +1,93 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  background-color: var(--navy);
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero .tag {
+  margin: 0 0 8px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a9d6ea;
+}
+
+.hero h2 {
+  margin: 0 0 10px;
+  font-size: clamp(24px, 3.5vw, 34px);
+  line-height: 1.2;
+}
+
+.hero .lead {
+  margin: 0 0 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--navy);
+  text-decoration: none;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.about {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 36px 20px 10px;
+  text-align: center;
+}
+
+.about h2 {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 24px;
+}
+
+.intro {
+  max-width: 600px;
+  margin: 0 auto 24px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.feature {
+  flex: 1 1 220px;
+  max-width: 300px;
+  padding: 18px 16px;
+  background-color: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.feature h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  color: var(--navy);
+}
+
+.feature p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+}

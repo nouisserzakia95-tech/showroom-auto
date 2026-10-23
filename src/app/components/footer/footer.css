@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 24px;
+  padding: 30px 20px 10px;
+  background-color: #16345c;
+  color: white;
+}
+
+.footer-col h3 {
+  margin: 0 0 10px;
+}
+
+.footer-col p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.copyright {
+  width: 100%;
+  margin: 10px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-size: 13px;
+}
